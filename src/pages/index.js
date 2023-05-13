@@ -10,7 +10,7 @@ const formatarValorMonetario = (valor) => {
 }
 
 export default function Home() {
-    console.log("Powered by Matheus Gaspechak")
+    console.log("Powered by Joelma e Chimbinha")
     const { data, error } = useSWR('/api/dashboard', fetcher, { refreshInterval: 100 })
 
     if (error) return <div>Failed to Load</div>
